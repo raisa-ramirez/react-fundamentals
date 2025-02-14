@@ -11,3 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.intro {
+  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.summary {
+  padding: 20px;
+  border: 10px solid gold;
+}
+
+h1 {
+  color: purple;
+}

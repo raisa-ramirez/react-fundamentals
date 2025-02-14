@@ -1,7 +1,7 @@
 export default function TodoList() {
     return (
         <div>        
-            <h1>Tareas Pendientes de Hedy Lamarr</h1>
+            <h3>Tareas Pendientes de Hedy Lamarr</h3>
             <img
             src="https://randomuser.me/api/portraits/women/85.jpg"
             alt="Hedy Lamarr"

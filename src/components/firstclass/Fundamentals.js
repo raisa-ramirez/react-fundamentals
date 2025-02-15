@@ -1,12 +1,13 @@
-import Gallery from "./Gallery";
-import Profile from "./Profile";
-import TodoList from "./TodoList";
-import { Bio } from "./Bio.js"
-import { Avatar } from "./Avatar.js"
+import Gallery from "./fundamentals/Gallery.js";
+import Profile from "./fundamentals/Profile.js";
+import TodoList from "./fundamentals/TodoList.js";
+import { Bio } from "./fundamentals/Bio.js"
+import { Avatar } from "./fundamentals/Avatar.js"
 import First from "./challenges/First.js"
 
 export default function Fundamentals() {
     return <>
+        <h1 className="title">Part I. Fundamentals</h1>
         <h1>JSX con llaves</h1>  
         <Avatar/> 
         <First/>

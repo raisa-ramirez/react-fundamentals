@@ -1,8 +1,8 @@
 const person = {
     name: 'Gregorio Y. Zara',
     theme: {
-      backgroundColor: 'black',
-      color: 'pink'
+      backgroundColor: '#D9DFC6',
+      color: '#727D73'
     },
     url: "https://randomuser.me/api/portraits/men/22.jpg",
     imageId: '7vQD0fP',
@@ -10,8 +10,6 @@ const person = {
 }; 
  
  export default function First() {
-    
-
     return (
       <div style={person.theme}>
         <h1>Tareas pendientes de {person.name}</h1>

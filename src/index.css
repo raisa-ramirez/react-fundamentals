@@ -28,3 +28,80 @@ code {
 h1 {
   color: purple;
 }
+
+.title {
+  color: #3A7D44;
+  background-color: #B3D8A8;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.profile {
+  border-radius: 20px;
+  background-color: #F4CCE9;
+  border: 1px dashed #7D1C4A;
+  padding: 20px;
+  margin: 10px 10px 25px 10px;
+}
+
+.avatar {
+  border: 4px solid #7D1C4A;
+  border-radius: 20px;
+  padding: 4px;
+}
+
+.main {
+  padding: 20px;
+  background-color: #EAFAEA;
+}
+
+.myUl {
+  padding-inline-start: 20px;
+}
+
+.myUl { list-style-type: none; padding: 0px 10px; }
+.myLi { 
+  margin-bottom: 10px; 
+  display: grid; 
+  grid-template-columns: auto 1fr;
+  gap: 20px;
+  align-items: center;
+}
+.myImg { width: 100px; height: 100px; border-radius: 50%; }
+
+.day {
+  background: #fff;
+  color: #222;
+}
+.night {
+  background: #222;
+  color: #fff;
+}
+
+.avatar { margin: 5px; border-radius: 50%; }
+.panel {
+  border: 1px solid #aaa;
+  border-radius: 6px;
+  margin-top: 20px;
+  padding: 10px;
+  width: 200px;
+}
+
+.fancyTextTitle {
+  color: #3674B5;
+  font-style: oblique;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+}
+
+.fancyTextQuote {
+  color: #27445D;
+  font-style: italic;
+  font-family: cursive
+}
+
+.square {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 90px;
+  height: 90px;
+}

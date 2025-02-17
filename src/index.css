@@ -105,3 +105,26 @@ h1 {
   width: 90px;
   height: 90px;
 }
+
+.toolbar {
+  background-color: lightskyblue;
+  width: 18%;
+  padding: 8px;
+  border-radius: 40px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.toolbar button {
+  margin: 5px;
+  border-radius: 20px;
+  background-color: #3674B5;
+  padding: 10px 20px 10px 20px;
+  color: #fff;
+  border: 1px solid wheat;
+}
+
+.theme {
+  color: #EB5B00;
+}

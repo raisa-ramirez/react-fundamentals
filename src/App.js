@@ -1,8 +1,16 @@
+import { useState } from "react"
 import FirstClass from "./components/FirstClass"
-export default function App(){   
+import SecondClass from "./components/SecondClass"
+
+export default function App(){ 
+  let [classOne, setClassOne] = useState(false)  
+  let [classTwo, setClassTwo] = useState(true)  
   return ( 
     <div className='main'>  
-      <FirstClass/> 
+      <h2 className="theme" onClick={() => setClassOne(!classOne)}>I. Fundamentals</h2>
+      {(classOne)?<FirstClass/>:''} 
+      <h2 className="theme" onClick={() => setClassTwo(!classTwo)}>II. Interactividad</h2>
+      {(classTwo)?<SecondClass/>:''}
     </div>
   )
 };

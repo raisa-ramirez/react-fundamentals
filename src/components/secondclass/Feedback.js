@@ -12,7 +12,7 @@ export default function Feedback() {
 
   return (
     <>
-        <h3>Challege #4</h3>
+        <h3>Challenge #4</h3>
         <button onClick={handleClick}>
             Saludar
         </button>

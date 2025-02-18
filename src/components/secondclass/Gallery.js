@@ -31,8 +31,7 @@ export default function Galery() {
     // }
     let [number, setNumber] = useState(15)
     let [showDescription, setshowDescription] = useState(true)
-    return <>
-        <h1 className="title">useState</h1>
+    return <>        
         <Frame state={showDescription}>
             <Image id={number}/>
             <button onClick={() => setNumber(number + 1)}>Siguiente</button>

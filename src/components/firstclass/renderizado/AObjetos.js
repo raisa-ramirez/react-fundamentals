@@ -31,9 +31,8 @@ const people = [{
 let chemists = people.filter(person => person.profession=='químico') 
 let others = people.filter(person => person.profession !=='químico')
 
-function Card({person}) {
-    return <ul className="myUl">
-        <li key={person.id} className='myLi'>
+function Item({person}) {
+    return <li className='myLi'>
             <img
                 src={getImageUrl(person.id)}
                 alt={person.name}
@@ -45,17 +44,17 @@ function Card({person}) {
                 conocido/a por {person.accomplishment}
             </p>
         </li>
-    </ul>
+    // </ul>
 }
 
 export default function AObjetos(){    
-    let myChemists = chemists.map(person => <Card person={person}/>)
-    let all = others.map(person => <Card person={person}/>)
+    let myChemists = chemists.map(person => <Item person={person} key={person.id}/>)
+    let all = others.map(person => <Item person={person} key={person.id}/>)
     
     return <>
         <h3>Químicos</h3>
-        {myChemists}
+        <ul className="myUl">{myChemists}</ul>
         <h3>Others</h3>
-        {all}
+        <ul className="myUl">{all}</ul>
     </>
 }

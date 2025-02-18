@@ -127,4 +127,11 @@ h1 {
 
 .theme {
   color: #EB5B00;
+  padding: 4px 4px 4px 14px;
+}
+
+.theme:hover {
+  background-color: lightblue;
+  border-radius: 20px;
+  cursor: pointer;
 }

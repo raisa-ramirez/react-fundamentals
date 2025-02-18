@@ -5,7 +5,7 @@ export default function TodoList() {
             <img
             src="https://randomuser.me/api/portraits/women/85.jpg"
             alt="Hedy Lamarr"
-            class="photo"
+            className="photo"
             ></img>
             <ul>
                 <li>Inventar nuevo semáforo</li>

@@ -8,6 +8,20 @@ import Images from './secondclass/Images'
 import Form from "./secondclass/Form"
 import FeedbackForm from "./secondclass/FeedbackForm"
 import Feedback from "./secondclass/Feedback"
+import TrafficLight from "./secondclass/TrafficLight"
+import Counter from "./secondclass/Counter"
+import RequestTracker from "./secondclass/RequestTracker"
+import TestCase from './secondclass/TestCase'
+import MovingDot from "./secondclass/MovingDot"
+import Forms from "./secondclass/Forms"
+import OAnidado from "./secondclass/OAnidado"
+import Immer from "./secondclass/Immer"
+import Scoreboard from "./secondclass/Scoreboard"
+import Canvas from "./secondclass/Canva"
+import CanvaImmer from './secondclass/CanvaImmer'
+import Arreglos from "./secondclass/Arreglos"
+import ShoppingCart from "./secondclass/ShoppingCart"
+import TaskApp from "./secondclass/TaskApp"
 
 function changeColor(e){
     e.stopPropagation();    
@@ -38,10 +52,28 @@ export default function SecondClass(){
             <ColorSwitch onChangeColor={changeColor}/>
             <b> Clic para incrementar Visitas: </b> {visit}
         </div>
+        <h1 className="title">useState</h1>
         <Gallery/>
         <Images/> 
         <Form/>
         <FeedbackForm/>
         <Feedback/>
+        <h1 className="title">Cola de actualizaciones de estado</h1>
+        <TrafficLight/>
+        <Counter/>
+        <RequestTracker/>
+        <TestCase/>
+        <h1 className="title">Actualizar objetos con useState</h1>
+        <MovingDot/>
+        <Forms/>
+        <OAnidado/> 
+        <Immer/> 
+        <Scoreboard/>
+        <Canvas/>
+        <CanvaImmer/>     
+        <h1 className="title">Actualizar arreglos con useState</h1>
+        <Arreglos/>
+        <ShoppingCart/>
+        <TaskApp/>
     </>
 }

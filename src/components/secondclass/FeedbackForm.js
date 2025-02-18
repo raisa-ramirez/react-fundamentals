@@ -9,7 +9,7 @@ export default function FeedbackForm() {
   } else {
     return (
       <>
-        <h3>Challege #3</h3>      
+        <h3>Challenge #3</h3>      
         <form onSubmit={e => {
           e.preventDefault();
           alert(`Enviando: "${message}"`);

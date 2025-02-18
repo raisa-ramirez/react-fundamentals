@@ -10,10 +10,10 @@ export default function Kaiku() {
     return <>
     {
         poem.lines.map(
-            (line, i) => <>
-                <p key={i}>{line}</p>
+            (line, i) => <div key={i}>
+                <p >{line}</p>
                 {(i<poem.lines.length-1)?<hr/>:''}                
-            </>
+            </div>
         )
     }
     </>

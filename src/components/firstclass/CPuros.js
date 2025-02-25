@@ -15,7 +15,7 @@ export default function CPuros(){
     ]
     
     return <>
-        <h1 className="title">Part V. Componentes Puros</h1>
+        <h1 className="title">Componentes Puros</h1>
         <h3>Clock</h3>
         <Clock time={new Date("Feb 13, 08 04:20")}/>
         <h3>Profile</h3>

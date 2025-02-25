@@ -6,7 +6,7 @@ import Copyright from './three/Copyright';
 export default function Arbol() {
   return (
     <>
-        <h1 className='title'>Part VI. UI como un árbol</h1> 
+        <h1 className='title'>UI como un árbol</h1> 
         <FancyText title text="Get Inspired App V1" />
         <InspirationGeneratorS1>
             <Copyright year={2025} />

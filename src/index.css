@@ -8,8 +8,7 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
 .intro {
@@ -25,15 +24,40 @@ code {
   border: 10px solid gold;
 }
 
+body {
+  padding: 20px;
+  background-color: rgb(235 236 240 / 0.5);
+}
+
 h1 {
-  color: purple;
+  color: rgb(35 39 47);
+}
+
+h3 {
+  color: rgb(68 172 153);
+  /* text-decoration: underline; */
 }
 
 .title {
-  color: #3A7D44;
-  background-color: #B3D8A8;
-  text-align: center;
+  color: rgb(35 39 47);
+  background-color: rgb(88 196 220 / 0.3);
+  border-radius: 0px 40px 40px 0px;
+  font-size: 20px;
+  padding: 20px 40px 20px 40px;
+  width: fit-content;
+}
+
+.theme {
+  color: rgb(88 196 220);
+  padding: 4px 4px 4px 14px;
+  border: 1px dashed rgb(88 196 220);
   border-radius: 20px;
+}
+
+.theme:hover {
+  background-color: rgb(35 39 47);
+  border-radius: 20px;
+  cursor: pointer;
 }
 
 .profile {
@@ -48,11 +72,6 @@ h1 {
   border: 4px solid #7D1C4A;
   border-radius: 20px;
   padding: 4px;
-}
-
-.main {
-  padding: 20px;
-  background-color: #EAFAEA;
 }
 
 .myUl {
@@ -125,13 +144,58 @@ h1 {
   border: 1px solid wheat;
 }
 
-.theme {
-  color: #EB5B00;
-  padding: 4px 4px 4px 14px;
+.background {
+  margin-top: 20px;
 }
 
-.theme:hover {
-  background-color: lightblue;
+.background--active {
+  background: #a6b5ff;
+}
+
+.picture {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  border: 5px solid transparent;
+}
+
+.picture--active {
+  border: 5px solid #a6b5ff;
+}
+
+
+button { margin: 5px; }
+li { border-radius: 5px; }
+.highlighted { background: #d2eaff; }
+
+.box {
+  border: 1px solid #a6b5ff;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  background-color: #d2eaff;
+  padding: 10px;
   border-radius: 20px;
-  cursor: pointer;
+  color: #27445D;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.box-hover {
+  background-color: #D17D98;
+  color: #fff;
+  border-color: #FFA09B;
+}
+
+.pic {
+  padding-inline-start: 20px;
+}
+
+.pic { list-style-type: none; padding: 0px 10px; }
+.li { 
+  margin-bottom: 10px; 
+  display: grid; 
+  grid-template-columns: auto 1fr;
+  gap: 20px;
+  align-items: center;
 }

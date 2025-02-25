@@ -11,7 +11,7 @@ export default function Conditionals(){
         <Equipaje isPacked={item.isPacked} item={item.item} key={i}/> 
     )
     return <>
-        <h1 className="title">Part III. Renderizado Condicional</h1>
+        <h1 className="title">Renderizado Condicional</h1>
         <h3>Lista de equipaje de Sally Ride</h3>
         <ol>
             { list }            

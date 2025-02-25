@@ -8,7 +8,7 @@ export default function Props() {
         img: url
     } 
     return <>
-        <h1 className="title">Part II. Props</h1>
+        <h1 className="title">Props</h1>
         <Card>
             {/* <Photo img={url}/> */}
             <Photo {...props}/>

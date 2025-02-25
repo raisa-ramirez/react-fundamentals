@@ -7,7 +7,7 @@ import First from "./challenges/First.js"
 
 export default function Fundamentals() {
     return <>
-        <h1 className="title">Part I. Fundamentals</h1>
+        <h1 className="title">Fundamentals</h1>
         <h1>JSX con llaves</h1>  
         <Avatar/> 
         <First/>

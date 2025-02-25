@@ -5,7 +5,7 @@ import Haiku from "./renderizado/Haiku"
 
 export default function Renderizado() {
     return <>
-        <h1 className="title">Part IV. Renderizado de listas</h1>
+        <h1 className="title">Renderizado de listas</h1>
         <h2>Array</h2>
         <ul><Arrays/></ul>
         <h2>Array of Objects</h2>

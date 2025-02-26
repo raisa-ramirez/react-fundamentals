@@ -199,3 +199,38 @@ li { border-radius: 5px; }
   gap: 20px;
   align-items: center;
 }
+
+.divCat {
+  width: 35%;
+  overflow: hidden;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #3674B5;
+}
+
+.ulCat {
+  list-style: none;
+  white-space: nowrap;
+  padding-inline-start: 20px;
+}
+
+.liCat {
+  display: inline;
+  padding: 0.5rem; 
+}
+
+.catNav {
+  text-align: center;
+}
+
+.catNav > button {
+  padding: 15px;
+  border-radius: 20px;
+  border: 5px solid #3674B5;
+  background-color: #27445D;
+  color: #fff;
+  cursor: pointer;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}

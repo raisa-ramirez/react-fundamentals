@@ -76,7 +76,7 @@ export default function ThirdClass() {
             <Card level={2}> 
                 <Heading>Publicaciones</Heading>                
                 <Card level={7}>
-                    { posts.map(post => <Post title={post.title} body={post.body}/>) }
+                    { posts.map((post, i) => <Post key={i} title={post.title} body={post.body}/>) }
                 </Card>
             </Card>
         </Card>

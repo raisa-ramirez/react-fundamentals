@@ -57,18 +57,20 @@ function FoodList(){
     }  
 
     return <table>
-        <tr>
-            <td><input value={task} onChange={(e) => setTask(e.target.value)}/></td>
-            <td colSpan={2}><button onClick={() => add_food()}>Agregar</button>  </td>
-        </tr>         
-        {
-            foods.map(food => 
-                <FoodForm 
-                key={food.id} 
-                food={food}
-                />
-            )
-        }        
+        <tbody>
+            <tr>
+                <td><input value={task} onChange={(e) => setTask(e.target.value)}/></td>
+                <td colSpan={2}><button onClick={() => add_food()}>Agregar</button>  </td>
+            </tr>         
+            {
+                foods.map(food => 
+                    <FoodForm 
+                    key={food.id} 
+                    food={food}
+                    />
+                )
+            }    
+        </tbody>    
     </table>
 }
 

@@ -1,5 +1,5 @@
 export function filterItems(items, query) {
-    console.log(query)
+    // console.log(query)
     query = query.toLowerCase();
     return items.filter(item =>
       item.name.split(' ').some(word =>

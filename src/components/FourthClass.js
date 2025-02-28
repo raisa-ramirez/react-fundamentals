@@ -12,10 +12,20 @@ import VideoPlayer from "./fourthclass/VideoPlayer"
 import Page from "./fourthclass/Page"
 import CatFriends from "./fourthclass/CatFriends"
 import Search from "./fourthclass/Search"
+import Video from "./fourthclass/Video"
+import ChatApp from "./fourthclass/ChatApp"
+import MyInput from "./fourthclass/MyInput"
+import Form from "./fourthclass/Form"
+import MyCounter from "./fourthclass/MyCounter"
+import Bio from './fourthclass/Bio'
+import Todo from "./fourthclass/Todo"
+import TodoListTask from './fourthclass/TodoListTask'
+import ContactManager from "./fourthclass/ContactManager"
+import SubmitForm from "./fourthclass/SubmitForm"
 
 export default function FourthClass(){
     return <>
-        <h3 className="title">useRef: Referenciar valores</h3>        
+        {/* <h3 className="title">useRef: Referenciar valores</h3>        
         <Counter/>
         <Stopwatch/>
         <Chat/>
@@ -30,6 +40,18 @@ export default function FourthClass(){
         <VideoPlayer/>
         <Page/>
         <CatFriends/>
-        <Search/>
+        <Search/> */}
+        <h3 className="title">useEffect: Sincronizar con efectos</h3> 
+        <Video/> 
+        <ChatApp/>
+        <MyInput/>
+        <Form/> 
+        <MyCounter/>
+        <Bio/> 
+        <h3 className="title">useEffect: Omitir efectos innecesarios</h3> 
+        <Todo/>
+        <TodoListTask/>
+        <ContactManager/>
+        <SubmitForm/>
     </>
 }

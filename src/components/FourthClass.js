@@ -22,10 +22,16 @@ import Todo from "./fourthclass/Todo"
 import TodoListTask from './fourthclass/TodoListTask'
 import ContactManager from "./fourthclass/ContactManager"
 import SubmitForm from "./fourthclass/SubmitForm"
+import ChatRoom from "./fourthclass/ChatRoom"
+import MessageRoom from "./fourthclass/MessageRoom"
+import Pointer from './fourthclass/Pointer'
+import MovePointer from "./fourthclass/MovePointer"
+import SecureChat from "./fourthclass/SecureChat"
+import Planets from "./fourthclass/Planets"
 
 export default function FourthClass(){
     return <>
-        {/* <h3 className="title">useRef: Referenciar valores</h3>        
+        <h3 className="title">useRef: Referenciar valores</h3>        
         <Counter/>
         <Stopwatch/>
         <Chat/>
@@ -40,7 +46,7 @@ export default function FourthClass(){
         <VideoPlayer/>
         <Page/>
         <CatFriends/>
-        <Search/> */}
+        <Search/> 
         <h3 className="title">useEffect: Sincronizar con efectos</h3> 
         <Video/> 
         <ChatApp/>
@@ -53,5 +59,13 @@ export default function FourthClass(){
         <TodoListTask/>
         <ContactManager/>
         <SubmitForm/>
+        <h3 className="title">useEffect: Ciclo de vida de los efectos reactivos</h3> 
+        <ChatRoom/>
+        <MessageRoom/>
+        <Pointer/> 
+        <MovePointer/> 
+        <SecureChat/>
+        <Planets/>
+        <h3 className="title">useEffect: Eliminar dependencias de los Efectos</h3> 
     </>
 }

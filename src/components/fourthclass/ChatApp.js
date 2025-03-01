@@ -6,7 +6,7 @@ export default function ChatApp() {
     useEffect(() => {
         const chatService = createConnection()
         chatService.connect()
-        return () => chatService.disconect()
+        return () => chatService.disconnect()
     },[])
 
     return <>

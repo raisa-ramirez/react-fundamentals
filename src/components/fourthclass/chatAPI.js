@@ -3,8 +3,33 @@ export default function createConnection(){
         connect() {
             console.log('Connecting...')
         },
-        disconect() {
+        disconnect() {
             console.log('Disconnecting')
         }
     }
 }
+
+export function createEncryptedConnection(roomId) {
+    // Una implementación real se conectaría realmente al servidor 
+    return {
+      connect() {
+        console.log('✅ 🔐 Conectando a "' + roomId + '... (encriptado)');
+      },
+      disconnect() {
+        console.log('❌ 🔐 Desconectando de la sala "' + roomId + '" (encriptado)');
+      }
+    };
+  }
+  
+  export function createUnencryptedConnection(roomId) {
+    // Una implementación real se conectaría realmente al servidor 
+    return {
+      connect() {
+        console.log('✅ Conectando a "' + roomId + '... (sin encriptado)');
+      },
+      disconnect() {
+        console.log('❌ Desconectando de la sala "' + roomId + '" (sin encriptado)');
+      }
+    };
+  }
+  

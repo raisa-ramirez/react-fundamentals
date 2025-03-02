@@ -28,6 +28,13 @@ import Pointer from './fourthclass/Pointer'
 import MovePointer from "./fourthclass/MovePointer"
 import SecureChat from "./fourthclass/SecureChat"
 import Planets from "./fourthclass/Planets"
+import Timer from "./fourthclass/Timer"
+import Banner from "./fourthclass/Banner"
+import SalaChat from "./fourthclass/SalaChat"
+import StatusBar from "./fourthclass/StatusBar"
+import FormInput from "./fourthclass/FormInput"
+import CounterNew from "./fourthclass/CounterNew"
+import Canvas from "./fourthclass/Canvas"
 
 export default function FourthClass(){
     return <>
@@ -65,7 +72,15 @@ export default function FourthClass(){
         <Pointer/> 
         <MovePointer/> 
         <SecureChat/>
-        <Planets/>
+        <Planets/> 
         <h3 className="title">useEffect: Eliminar dependencias de los Efectos</h3> 
+        <Timer/> 
+        <Banner/>
+        <SalaChat/>
+        <h3 className="title">Hooks personalizados</h3> 
+        <StatusBar/> 
+        <FormInput/>
+        <CounterNew/>
+        {/* <Canvas/> */}
     </>
 }
